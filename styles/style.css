@@ -177,7 +177,89 @@ padding-top: 0px;
     margin-top: 20px;
     padding: 20px;
 }
-@media screen and (max-width: 600px) {
+.perfect
+{
+    display: flex;
+    margin: 150px;
+    gap: 20px;
+}
+.perfect-container
+{
+ padding-bottom: 100px;
+ 
+}
+.perfect-container ul li
+{
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.newsform
+{
+    border: 2px solid tomato;
+    padding: 50px;
+}
+
+.news{
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#formT
+{
+    margin-top: 20px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.nbut
+{
+    margin-top: 20px;
+    width: 280px ;
+}
+.newsimage img
+{
+    position:static;
+}
+.cross
+{
+    background-color: #FF5400;
+    font-size: 30px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 400;
+    margin-left: 400px;
+    margin-top: -300px;
+    transform: rotate(35deg);
+    
+}
+.bold70
+{
+    font-weight: 600;
+}
+
+#icons
+{
+    width: 20px;
+    height: 20px;
+}
+.foot
+{  
+    background-color: rgb(219, 215, 215);
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.foot1 h5{ margin-top: 40px;}
+@media screen and ( max-width: 600px) {
     .head
     {
        flex-direction: column;
@@ -227,11 +309,11 @@ padding-top: 0px;
     #destination ,#source
     {
         margin-left: -120px;
-        width: 280px;
+        width: 277px;
     }
     .form .but-primary
     {
-       width: 280px;
+       width: 277px;
        margin-left: -120px;
     }
     .popular-tour
@@ -325,5 +407,46 @@ padding-top: 0px;
     {
         padding-left: 50px;
         padding-right: 20px;
+    }
+    .perfect
+    {
+        flex-direction: column;
+        width: 350px;
+        margin-left: -10px;
+        gap: 10px;
+    }
+    .perfect-container p
+    {
+        margin-left: 20px;
+    }
+    .perfect-container h2 
+    {
+        margin-left: 20px;
+    }
+    .news
+    {
+        flex-direction: column;
+        margin-left: 5px;
+
+    }
+    .newsform
+    {
+        padding-left: 1px;
+        width: 300px;
+    }
+    #formT
+    {
+        width: 280px;
+        margin-left: 20px;
+    }
+    .nbut
+    {
+        width: 300px;
+        margin-left: 20px;
+    }
+    .foot
+    {
+      width: 350px;
+      margin-left: 0px;
     }
    }
