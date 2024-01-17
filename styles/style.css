@@ -49,7 +49,7 @@ a:hover
 
 .banner
 {
-    background-image: url("/Images/Group13.png");
+    background-image: url("../Images/Group13.png");
     max-width:  80%;
     height:  500px;
     margin-left: 170px;
